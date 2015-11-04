@@ -39,17 +39,17 @@ public class DetailActivity extends AppCompatActivity {
         } else if (index == 4) {
             updateMultipleFragment(MultipleFragment.TYPE_GRID_LAYOUT);
         } else if (index == 5) {
-            updateMultipleHeaderFragment(MultipleFragment.TYPE_LINEAR_LAYOUT);
+            updateMultipleHeaderFragment(MultipleHeaderBottomFragment.TYPE_LINEAR_LAYOUT);
         } else if (index == 6) {
-            updateMultipleHeaderFragment(MultipleFragment.TYPE_GRID_LAYOUT);
+            updateMultipleHeaderFragment(MultipleHeaderBottomFragment.TYPE_GRID_LAYOUT);
         } else if (index == 7) {
-            updateAnimFragment(MultipleFragment.TYPE_LINEAR_LAYOUT);
+            updateAnimFragment(AnimFragment.TYPE_LINEAR_LAYOUT);
         } else if (index == 8) {
-            updateAnimFragment(MultipleFragment.TYPE_GRID_LAYOUT);
+            updateAnimFragment(AnimFragment.TYPE_GRID_LAYOUT);
         } else if (index == 9) {
-            updateFullyExpandedFragment(MultipleFragment.TYPE_LINEAR_LAYOUT);
+            updateFullyExpandedFragment(FullyExpandedFragment.TYPE_LINEAR_LAYOUT);
         } else if (index == 10) {
-            updateFullyExpandedFragment(MultipleFragment.TYPE_GRID_LAYOUT);
+            updateFullyExpandedFragment(FullyExpandedFragment.TYPE_GRID_LAYOUT);
         }
     }
 
